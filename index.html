@@ -992,7 +992,7 @@ async function enterRoom(code) {
   /* ── Chat via Ably ──
      Ably handles real-time messaging. No Firestore subcollection,
      no index issues, no double messages. ── */
-  const ablyKeyConfigured = ABLY_KEY !== 'YOUR_ABLY_KEY_HERE';
+  const ablyKeyConfigured = ABLY_KEY !== 'x8aq9Q.sST0hA:TZDPSoVLpEZBPF20Nowa-yxYPjD5l0Z-7nIMDFsZ7R8';
   if (ablyKeyConfigured) {
     try {
       const ably = new Ably.Realtime({ key: ABLY_KEY, clientId: uid });
