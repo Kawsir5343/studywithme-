@@ -914,7 +914,7 @@ function initAblyChat(roomCode, attempt) {
       if (stateChange.current === 'connected') {
         clearChatStatus();
       } else if (stateChange.current === 'disconnected') {
-        setChatStatus('⚠️ Chat reconnecting...');
+        setChatStatus('⚠️ Coming soon...');
       } else if (stateChange.current === 'failed') {
         setChatStatus('❌ Chat connection failed');
         toast('❌ Chat failed to connect');
